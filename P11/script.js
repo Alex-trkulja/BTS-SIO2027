@@ -24,3 +24,29 @@ function nombreAleatoire() {
 function effacer() {
     document.getElementById("message").textContent = "";
 }
+
+function verif_age() {
+    let n1 = prompt("Donnez votre âge : ")
+ 
+    if (n1 < 18) {
+        document.write("Vous êtes mineur")
+  document.body.style.backgroundColor = "red"
+    }
+    else {
+        document.write("Vous êtes majeur")
+        document.body.style.backgroundColor = "green"
+    }
+}
+
+
+function calculerNotes() {
+
+    let n1=(prompt("Note1:"));
+    let n2=(prompt("Note2:"));
+    let n3=(prompt("Note3:"));
+
+    let somme = Number(n1) + Number(n2) + Number(n3);
+    let moyenne = somme/3;
+
+    document.getElementById("message").textContent = "Somme:" +somme + "-Moyenne:" +moyenne;
+}
