@@ -72,6 +72,7 @@ nav a:hover {
     margin-top: 25px;
 }
 
+
 .carte {
     background-color: white;
     border-radius: 12px;
@@ -93,6 +94,7 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
+
 .carte img {
     width: 100%;
     height: 200px;
@@ -106,6 +108,7 @@ nav a:hover {
     font-size: 0.85rem;
     padding: 6px 20px;
 }
+
 
 .caracteristiques {
     list-style: none;
